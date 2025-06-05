@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $localizacion = isset($_REQUEST['localizacion']) ? $_REQUEST['localizacion'] : null;
     //Variables
     $hostDB = '127.0.0.1';
-    $nombreDB = 'BdBiblioteca';
+    $nombreDB = 'bibliotecadb';
     $usuarioDB = 'root';
     $contrasenaDB = '';
     //Conecta con la base

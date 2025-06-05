@@ -1,7 +1,7 @@
 <?php
 //variables
 $hostDB = '127.0.0.1';
-$nombreDB = 'BdBiblioteca';
+$nombreDB = 'bibliotecadb';
 $usuarioDB = 'root';
 $contrasenaDB = '';
 //conecta con la base de datos
