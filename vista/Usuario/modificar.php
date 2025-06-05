@@ -1,7 +1,7 @@
 <?php
 //Variables
 $hostDB = '127.0.0.1';
-$nombreDB = 'BdBiblioteca';
+$nombreDB = 'bibliotecadb';
 $usuarioDB = 'root';
 $contrasenaDB = '';
 $id = isset($_REQUEST['id']) ? $_REQUEST['id'] : null;

@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $telefono = isset($_REQUEST['telefono']) ? $_REQUEST['telefono'] : null;
     //Variables
     $hostDB = '127.0.0.1';
-    $nombreDB = 'BdBiblioteca';
+    $nombreDB = 'bibliotecadb';
     $usuarioDB = 'root';
     $contrasenaDB = '';
     //Conecta con la base
